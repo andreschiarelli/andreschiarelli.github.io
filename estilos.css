@@ -100,6 +100,7 @@ a:hover{
 .jumbotron:hover {
 	background-color:white;
 	color:#2c3e50;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .jumbotron:active {
 	 
@@ -119,13 +120,62 @@ a:hover{
 }
 .trabajo,.libreta,.curso{
 			width: 29%;
-			background-color: #2c3e50;
+			background-color: #18bc9c;
 			color: white;
 			margin-top: 2%;
 			font-size: 20px;
 			margin: 2%;
 			border-radius: 10px;
 }
+
+		.header {
+    color:#2c3e50 ;
+    font-size: 40px;
+    padding: 10px;
+}
+
+	.bigicon {
+	    font-size: 35px;
+	    color:white;
+	    width: 100%
+}
+
+.nombre,
+.apellido,
+.email,
+.contacto,
+.telefono{
+	height: 50px;
+	
+}
+.well,.well-sm{
+	background-color: white;
+	
+
+}
+.telefono::placeholder { color:  #2c3e50; font-weight: bold; font-family:Calibri; }
+.nombre::placeholder { color:  #2c3e50; font-weight: bold; }
+.contacto::placeholder { color:  #2c3e50; font-weight: bold; }
+.apellido::placeholder { color:  #2c3e50; font-weight: bold; }
+.email::placeholder { color:  #2c3e50; font-weight: bold; }
+.mensaje::placeholder { color:  #2c3e50; font-weight: bold; }
+
+.enviar{
+		background-color: #18bc9c;
+		color: white;
+		padding:18px 37px;
+		border-color: #18bc9c;
+		font-size: 20px;
+		font-weight:bold;
+
+}
+.enviar:hover {
+	background-color:#088A68;
+	border-color: #088A68;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+	}
+	
+
 
 
 			
