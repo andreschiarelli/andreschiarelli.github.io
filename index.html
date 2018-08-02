@@ -2,32 +2,58 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="estilos.css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
 	<title>Andres Chiarelli</title>
 </head>
 <body>
 	
 		<!--MENU-->
-		
-	<nav class="navbar navbar-dark bg-primary  navbar-fixed-top">
- 
-	    <div class="navbar-header">
-	      <a class="navbar-brand logo" href="#">ANDRES CHIARELLI</a>
-	    </div>
-	    <div class="botonera">
-	      <a class="botonera" href="#acercaDeMi">ACERCA DE MI</a>
-	      <a class="botonera" href="#trabajos">TRABAJOS</a>
-	      <a class="botonera" href="#contacto">CONTACTO</a>
-	    </div>
-	</nav>
+		<nav class="navbar fixed-top navbar navbar-expand-md">
+  <a class="navbar-brand logo" href="#">ANDRES CHIARELLI</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <img src="img/celular.png" class="imgCelular">
+  </button>
+	
+  <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav ">
+      
+      <li class="nav-item">
+        <a class="nav-link botonera" href="#acercaDeMi">ACERCA DE MI</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link botonera" href="#trabajos">TRABAJOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link botonera" href="#objetivos">OBJETIVOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link botonera" href="#contacto">CONTACTO</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</body>
+</html>
+	
+
+
+	  
+	    
   		<!--IMAGEN DE PERFIL-->
-	<div class="principal">
-		<img src="img\fotoPerfil.jpg"  class="img-circle fotoPerfil "  width="200px">
+	<div class="principal" id="principal">
+		<img src="img\fotoPerfil.jpg"  class="rounded-circle fotoPerfil "  width="200px">
 			<h1>ANDRES CHIARELLI</h1>
 			<H3 id="texto1">Estudiante - Desarrollo web - Jovenes a programar
 	</div>
@@ -75,7 +101,8 @@
 		  </div>
 		</div>
 		<!-- objetivos -->
-		
+		<div class="" id="objetivos">
+			
 				<h1>OBJETIVOS PERSONALES</h1><br>
 				<h3>A largo plazo..</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste similique necessitatibus accusantium quam, autem cumque facilis quisquam.<br> Repellendus possimus dolorem, amet quos. Amet architecto, natus similique placeat, possimus odio dicta.
@@ -84,7 +111,7 @@
 
 			<div class="row objetivos">
 				<div class="col-md-6 col-lg-6 col-sm-12 trabajo mx-auto d-block">
-					<h3>MEJORAR EN MI TRABAJO</h3>
+					<h3>OBJETIVO 1</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quae quis cumque provident voluptates cupiditate repellendus,<br> officia labore delectus at animi ducimus non laudantium nisi, reprehenderit, dolores sapiente fugit fuga.</p>
 					<h4>Plan de accion</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum doloremque eos aliquid, sit corporis recusandae!<br> Excepturi id eaque commodi, atque consequuntur repudiandae! Labore sapiente earum excepturi cumque, quasi vero doloremque!</p>
@@ -101,7 +128,7 @@
 					<img src="img/coca.jpg" width="200px">
 				</div>			
 				<div class="col-md-6 col-lg-6 col-sm-12 trabajo mx-auto d-block">
-					<h3>LIBRETA DE CONDUCIR</h3>
+					<h3>OBJETIVO 2</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum quae quis cumque provident voluptates cupiditate repellendus,<br> officia labore delectus at animi ducimus non laudantium nisi, reprehenderit, dolores sapiente fugit fuga.</p>
 					<h4>Plan de accion</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum doloremque eos aliquid, sit corporis recusandae!<br> Excepturi id eaque commodi, atque consequuntur repudiandae! Labore sapiente earum excepturi cumque, quasi vero doloremque!</p>
@@ -109,135 +136,63 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum doloremque eos aliquid, sit corporis recusandae!<br> Excepturi id eaque commodi, atque consequuntur repudiandae! Labore sapiente earum excepturi cumque, quasi vero doloremque!</p>
 				</div>
 			</div>
-		
-
-					
-				
-				
-
-			
-		
-			
-
-
-		
-		
-
-				
-		
-		
-		<!-- COMETENCIAS TRANSEVERSALES
-		
-		<div class="objetivos">
-			<br>
-			<h1>Mis Objetivos personales</h1>
-			<br>
-				<div class="lista1 ">
-					<ol style="align-items: center;">
-					  <li>Mejorar en mi trabajo, llegar a cargo de Senior</li>
-					  <li>Sacar libreta de conducir</li>
-					  <li>Terminar el curso de Jovenes a Programar</li>
-					  <li>Ser Feliz</li>
-					</ol>
-				</div>
 		</div>
-
-		<div  class="objetivos2" >
-				<ul class="">
-					<div class="row">
-						<div class="col-md-4 col-sm-12 trabajo mx-auto d-block">
-					  		<li > 
-					  		 	<H3>TRABAJO</H3><br>
-					  		</li>
-					  		<li > kfñsldfksfdsfl</li>
-					  		<li > kfñsldfksfdsfl</li>
-					  		<li > kfñsldfksfdsfl</li>
-					  		<li > kfñsldfksfdsfl</li>
-					  			
-					  	</div>
-					 	<div class="col-md-4 col-sm-12 libreta mx-auto d-block">
-					 		
-					 		  <li>
-					 		   	<H3>LIBRETA</H3> <br> 
-					 		  </li>
-					 		<li > Examen medico</li>
-					  		<li > Pago libreta abitab</li>
-					  		<li > Tramites imm:fotocopia de CI,constancia de pago de libreta y examen medico</li>
-					  		<li > 25 clases</li>
-					  		<li > Dar examen</li>
-					  		
-					 		  	
-					  	</div>
-						<div class="col-md-4 col-sm-12 curso">
-					  		 <li > 
-					  		 	<h3>CURSO</h3><br>
-					 		</li>
-					 		<li > kfñsldfksfdsfl</li>
-					  		<li > kfñsldfksfdsfl</li>
-					  		<li > kfñsldfksfdsfl</li>
-					  		<li > kfñsldfksfdsfl</li>
-					 	</div>
-					</div> 
-				</ul>			
-			</div>
-		-->
+		
 	<!-- INGLES-->
 	<div class="preguntas">
 		
-	<a href="#1" data-toggle="collapse" class="questions" >What are your strenghts? <span class="glyphicon glyphicon-triangle-bottom btn-lg" aria-hidden="true"></a></span><br>
-	<div id="1" class="collapse answers">
+	<a href="#uno" data-toggle="collapse" class="questions" >What are your strenghts? <img src="" width="20px"></a></span><br>
+	<div id="uno" class="collapse answers">
 	Lorem ipsum dolor text....
 	</div>
 
-	<a href="#2" data-toggle="collapse" class="questions">What are your weaknesses? <span class="glyphicon glyphicon-triangle-bottom btn-lg" aria-hidden="true"></a></span><br>
-	<div id="2" class="collapse answers">
+	<a href="#dos" data-toggle="collapse" class="questions">What are your weaknesses? <span class="glyphicon glyphicon-triangle-bottom btn-lg" aria-hidden="true"></a></span><br>
+	<div id="dos" class="collapse answers">
 	Lorem ipsum dolor text....
 	</div>
 
-	<a href="#3" data-toggle="collapse" class="questions">What are your goals in this career? <span class="glyphicon glyphicon-triangle-bottom btn-lg" aria-hidden="true"></a></span><br>
-	<div id="3" class="collapse answers">
+	<a href="#tres" data-toggle="collapse" class="questions">What are your goals in this career? <span class="glyphicon glyphicon-triangle-bottom btn-lg" aria-hidden="true"></a></span><br>
+	<div id="tres" class="collapse answers">
 	Lorem ipsum dolor text....
 	</div>
 
-	<a href="#4" data-toggle="collapse" class="questions">Where do you see yourself in 5 years? <span class="glyphicon glyphicon-triangle-bottom btn-lg" aria-hidden="true"></a></span><br>
-	<div id="4" class="collapse answers">
+	<a href="#cuatro" data-toggle="collapse" class="questions">Where do you see yourself in 5 years? <span class="glyphicon glyphicon-triangle-bottom btn-lg" aria-hidden="true"></a></span><br>
+	<div id="cuatro" class="collapse answers">
 	Lorem ipsum dolor text....
 	</div>
 
-	<a href="#5" data-toggle="collapse" class="questions">What do you look for in a workplace? <span class="glyphicon glyphicon-triangle-bottom btn-lg" aria-hidden="true"></a></span><br>
-	<div id="5" class="collapse answers">
+	<a href="#cinco" data-toggle="collapse" class="questions">What do you look for in a workplace? <span class="glyphicon glyphicon-triangle-bottom btn-lg" aria-hidden="true"></a></span><br>
+	<div id="cinco" class="collapse answers">
 	Lorem ipsum dolor text....
 	</div>
 
-		<a href="#6" data-toggle="collapse" class="questions">Do you think you work well in a team? <span class="glyphicon glyphicon-triangle-bottom btn-lg" aria-hidden="true"></a></span><br>
-	<div id="6" class="collapse answers">
+		<a href="#seis" data-toggle="collapse" class="questions">Do you think you work well in a team? <span class="glyphicon glyphicon-triangle-bottom btn-lg" aria-hidden="true"></a></span><br>
+	<div id="seis" class="collapse answers">
 	Lorem ipsum dolor text....
 	</div>
 
-		<a href="#7" data-toggle="collapse" class="questions">What role do you usually take on in a team?<span class="glyphicon glyphicon-triangle-bottom btn-lg" aria-hidden="true"></a></span><br>
-	<div id="7" class="collapse answers">
+		<a href="#siete" data-toggle="collapse" class="questions">What role do you usually take on in a team?<span class="glyphicon glyphicon-triangle-bottom btn-lg" aria-hidden="true"></a></span><br>
+	<div id="siete" class="collapse answers">
 	Lorem ipsum dolor text....
 	</div>
 
+
 	</div>
 
-
-	
-			
 	<!-- CONTACTO-->		   
 	
 	
 			
 		
-    <div class="row" id="contacto">
+    <div class=""  id="contacto">
         <div class="col-md-12">
-            
-                <form class="form-horizontal " method="post">
+           
+                <form class="form-horizontal  " method="post">
                     <fieldset>
-                        <legend class="text-center header">CONTACTAME!</legend>
+                        <legend class="text-center header ">CONTACTAME!</legend>
 
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                        <div class="form-group  ">
+                            <span class="col-md-1 col-md-offset-2 text-center "><i class="fa fa-user bigicon"></i></span>
                             <div class="col-md-8 ">
                                 <input id="fname" name="name" type="text" placeholder="NOMBRE" class="form-control nombre">
                             </div>
@@ -284,6 +239,26 @@
     <div>
     	
     </div>
+					
+				
+				
+
+			
+		
+			
+
+
+		
+		
+
+				
+		
+		
+	
+
+
+	
+			
 		
 					
 		

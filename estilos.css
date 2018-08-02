@@ -2,7 +2,7 @@ body{
 	
   font-family: 'Lato', sans-serif;
   text-align: center;
-  padding-top: 100px;
+  
 }
 h1,
 h2,
@@ -17,9 +17,11 @@ h6 {
 * {
     scroll-behavior: smooth;
 }
+#objetivos,
+#principal,
 #trabajos,
 #acercaDeMi,
-#contacto{ padding-top: 85px; 
+#contacto{ padding-top: 100px; 
 }
 .logo:visited{
 	color:white;
@@ -47,33 +49,50 @@ a:hover{
 
 
 /*NAV BAR*/
+
+
 .navbar{
 		 height: 100px;
 		 background-color: #2c3e50;
 }
+
 .botonera{
-		font-family:Lato;
-		font-size: 20px;	
-		color: white;
-		text-align: right;
-		padding-left: 20px;
-		padding-right: 10px;
-		padding-top: 30px;
-		padding-bottom: 30px;
-		text-decoration: none;
-		 font-weight: 700;
+			color: white;
+			float: right;
+			font-family:Lato;
+			font-size: 20px;
+			font-weight: 700;
 }
+
+@media (max-width: 768px) { .botonera 
+{color: black;font-weight: 700;}
+a.botonera:hover{background-color: white;}
+
+
+}
+
+
+
+
+			 
+			 
+
+			
+
 .logo{
-		font-family:Lato;
-		font-size: 25px;	
 		color: white;
-		text-align: left;
-		padding-left: 20px;
-		padding-right: 10px;
-		padding-top: 30px;
-		padding-bottom: 30px;
-		text-decoration: none;
+		font-size: 25px;
 		font-weight: 700;
+
+
+
+
+}
+
+		
+.imgCelular{
+			color:  #2c3e50;
+			width: 60px;
 }
 .titulos{
 		padding-top:83px;
@@ -91,6 +110,7 @@ a:hover{
 }
 .fotoPerfil{
 			margin-top: 100px;
+
 }
 /* SECCION 2 ACERCA DE MI*/
 .acercaDeMi{
@@ -152,6 +172,12 @@ a:hover{
 		font-size: 17px;
 }
 /*SECCION 6 CONTACTO*/
+		.contacto {
+			flex-direction: column;
+			align-items: center;
+
+					
+		}
 		.header {
     color:#2c3e50 ;
     font-size: 40px;
