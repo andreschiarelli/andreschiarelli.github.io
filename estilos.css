@@ -12,7 +12,7 @@ h5,
 h6 {
   font-weight: 700;
   font-family: 'Lato';
-  text-align: center;
+  
 }
 * {
     scroll-behavior: smooth;
@@ -64,12 +64,36 @@ a:hover{
 			font-weight: 700;
 }
 
-@media (max-width: 768px) { .botonera 
-{color: black;font-weight: 700;}
-a.botonera:hover{background-color: white;}
 
+.logo{
+		color: white;
+		font-size: 25px;
+		font-weight: 700;
 
 }
+
+.imgCelular{
+			color:  #2c3e50;
+			width: 60px;
+}
+.titulos{
+		padding-top:83px;
+}
+
+@media (max-width: 768px) 
+{ .botonera {color: black;font-weight: 700;background-color:#2c3e50;width: 40%;}
+a.botonera:hover{background-color: white;}
+}
+
+@media (max-width: 380px) 
+{.logo{display: none;}
+body{margin-right:  3%;margin-left: 3%;}
+.navbar-toggler{margin-left: 60%;}
+}
+
+
+
+
 
 
 
@@ -79,24 +103,8 @@ a.botonera:hover{background-color: white;}
 
 			
 
-.logo{
-		color: white;
-		font-size: 25px;
-		font-weight: 700;
-
-
-
-
-}
 
 		
-.imgCelular{
-			color:  #2c3e50;
-			width: 60px;
-}
-.titulos{
-		padding-top:83px;
-}
 		
 /*SECCION 1- FOTO DE PERFL*/
 .principal{
@@ -158,25 +166,46 @@ a.botonera:hover{background-color: white;}
 
 /*SECCION 4 OBJETIVOS*/
 
+.esteAno{
+		width: 100%;
+		margin:auto; 
+		border-style: solid;
+		border-right-style: none;
+		border-left-style: none;
+		border-width: 1px;
+		border-color: black;
+		padding: 3%;
+}
+.objetivos{
+		padding: 3%;
+}
+
+.programacionimg{
+				margin-top: 7%;
+}
+
 
 /*SECCION 5 INGLES*/
 .preguntas{
 			
 			background-color: skyblue;
+			
+			margin: auto;
+			
+
 }
 .questions{
 			font-size: 30px;
-			color: 
+			
 }
 .answers{
 		font-size: 17px;
 }
 /*SECCION 6 CONTACTO*/
-		.contacto {
-			flex-direction: column;
-			align-items: center;
-
-					
+		.formulario {
+			
+			
+			
 		}
 		.header {
     color:#2c3e50 ;
