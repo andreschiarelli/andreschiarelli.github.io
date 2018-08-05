@@ -1,5 +1,5 @@
 $(function){
-	$("formulario").submit(function)(event){
+	$("form").submit(function)(event){
 		event.preventDefault();
 
 		$.ayax({
