@@ -1,5 +1,5 @@
-$(function){
-	$("form").submit(function)(event){
+$(function($){
+	$("form").submit(function(event){
 		event.preventDefault();
 
 		$.ayax({
@@ -10,8 +10,10 @@ $(function){
 				email:$("#email").val()
 				message:$("#message").val()
 			},
-			dataType: "json"
-			}).done(function(){
+				dataType: "json"
+			})
+
+				.done(function(){
 				$("#fname").val("");
 				$("#email").val("");
 				$("#message").val("");
