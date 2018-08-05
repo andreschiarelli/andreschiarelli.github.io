@@ -1,6 +1,6 @@
 $(function){
-	$("form").submit(function)(event){
-		event.preventDefault()
+	$("formulario").submit(function)(event){
+		event.preventDefault();
 
 		$.ayax({
 			url: "https://formspre.io/andreschiarelli@gmail.com",
@@ -22,5 +22,8 @@ $(function){
 			});
 		});
 });
+
+
+
 
 	
