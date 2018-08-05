@@ -6,8 +6,8 @@ $(function($){
 			url: "https://formspre.io/andreschiarelli@gmail.com",
 			method:"POST",
 			data: {
-				name: $("#fname").val()
-				email:$("#email").val()
+				name: $("#fname").val(),
+				email:$("#email").val(),
 				message:$("#message").val()
 			},
 				dataType: "json"
@@ -24,6 +24,10 @@ $(function($){
 			});
 		});
 });
+
+
+
+
 
 
 
