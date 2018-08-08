@@ -5,19 +5,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
 
-<link rel="stylesheet" type="text/css" href="estilos.css">
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="proyecto.js"></script>	
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+<script src="proyecto.js"></script>
+
+	
 	<title>Andres Chiarelli</title>
 </head>
-
 <body>
 	
 	
@@ -47,6 +46,7 @@
   </div>
 </nav>
 </body>
+
 </html>
 	
 
@@ -56,7 +56,7 @@
   		<!--IMAGEN DE PERFIL-->
 	<div class="principal" id="principal">
 		<img src="img\fotoPerfil.jpg"  class="rounded-circle fotoPerfil "  width="200px">
-			<h1>ANDRES CHIARELLI</h1>
+			<h1 class="titulos">ANDRES CHIARELLI</h1>
 			<H3 id="texto1">Estudiante - Desarrollo web - Jovenes a programar
 	</div>
 				
@@ -64,23 +64,31 @@
 	
 		 
 	<div class="acercaDeMi" id="acercaDeMi">
-		<h1>ACERCA DE MI</h1>
-		<p>Hola, bienvenido a mi pagina! me llamo Andres ,tengo 28 años y vivo en Montevideo,soy una persona positiva, proctiva y empatica. Hace 2 años que Trabajo como relevador de datos y desde 2018 estudio desarrollo web en Jovenes a Programar, un programa desarrollado por Plan ceibal e Inefop con el apoyo de muchas empresas de tecnologia del sector.Mi sueño es poder trabajar en una empresa de tecnologia como desarrolador web.<br>Desde el 2017 que me independice con mi novia, me apasiona la tecnologia, hacer deporte,viajar,compartir con mis amigos y mi familia.   </p>
+		<h1 class="titulos">ACERCA DE MI</h1>
+		<div class="bloque">
+		<p>Hola, bienvenido a mi pagina! me llamo Andres ,tengo 28 años y vivo en Montevideo,soy una persona positiva,proctiva y empatica.Hace 2 años que Trabajo como relevador de datos y desde 2018 estudio desarrollo web en Jovenes a Programar, un programa desarrollado por Plan ceibal e Inefop con el apoyo de muchas empresas de tecnologia del sector.Mi sueño es poder trabajar en una empresa de tecnologia como desarrolador web.Desde el 2017 que me independice con mi novia, me apasiona la tecnologia, hacer deporte,viajar,compartir con mis amigos y mi familia.   </p>
 		<br>
+		</div>	
+		
+			
 		<a href="#" class="jumbotron">Ver mi Curriculum!</a>
+	
 	</div>
+		
+		
+			
       
 		<!-- TRABAJOS-->
 	
 			
 		
 	<div class="trabajos" id="trabajos">
-		<h1>TRABAJOS</h1><br>	
+		<h1 class="titulos">TRABAJOS</h1><br>	
 	</div>		
     
    <div class="row">
-   	<div class="col-sm-6">
-      <p>INSTITUTO DE INGLES</p>
+   	<div class="col-sm-6" style="">
+      <h6>INSTITUTO DE INGLES</h6>
       <img src="img/instituto.png" class="mx-auto d-block rounded" style="width:70%" alt="Image">
     </div>
     <div class="col-sm-6"> 
@@ -89,22 +97,12 @@
     </div>
   </div>
    
-
-		  <div class="row">
-		    <div class="col-sm-6">
-		      <p>Trabajo 3</p>
-		      <img src="img/trabajo.jpg" class="mx-auto d-block" style="width:60%" alt="Image">
-		    </div>
-		    <div class="col-sm-6"> 
-		      <p>Trabajo 4</p>
-		      <img src="img/trabajo.jpg" class="mx-auto d-block" style="width:60%" alt="Image">
-		    </div>
-
-		  </div>
 		</div>
+		
+
 		<!-- objetivos -->
 		<div id="objetivos">
-				<h1>PROYECTO PERSONAL</h1><br>
+				<h1 class="titulos">PROYECTO PERSONAL</h1><br>
 			<div class="esteAno">
 				<h4>Objetivos para este año</h4>
 				
@@ -120,73 +118,82 @@
 				
 
 
-			<div class="row objetivos">
-				<div class="col-md-6 col-lg-6 col-sm-12 trabajo mx-auto d-block">
-					<h4>TRABAJAR DE DESARROLLADOR JUNIOR</h4>
-						<p>el objetivo es buscar un trabajo full time , en una empresa de desarrollo web, que tenga un ambiente laboral bueno y que me permita aprender y mejorar mis habilidades.</p>
+<div class="row objetivos">
+	<div class="col-md-6 col-lg-6 col-sm-12 trabajo mx-auto d-block">
+		<h4>TRABAJAR DE DESARROLLADOR JUNIOR</h4>
+		<p align="justify">El objetivo es buscar un trabajo full time , en una empresa de desarrollo web, que tenga un ambiente laboral bueno y que me permita aprender y mejorar mis habilidades,para lograr este objetivo voy a precisar de tiempo, esfuerzo, y motivacion para ir a las entrevistas , y para seguir estudiando de autoddidacta y poder estar mejor preparado para estas.</p>
+						
+		<div id="accordion">
+		  <div class="card">
+		    <div class="card-header" id="headingOne">
+		      <h5 class="mb-0">
+		        <h4 class="link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		          Plan de accion
+		        </h4>
+		      </h5>
+		    </div>
+
+		    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+		      <div class="card-body">
+		       	<p align="left">
+					<strong>paso 1:</strong>Buscar trabajo desde casa por la web , enviar mi cv a empresas del plan ceibal jovenes a programar y a portales de empleo.<br>
+					<strong>paso 2:</strong> en el tiempo libre que tengo (aprox 2 horas por dia) estudiar y seguir aprendiendo a programar.<br> 
+					<strong>paso 3:</strong> Estudiar los posibles llamados e ir lo mas preparado posible.<br>
+					<strong>paso 4:</strong> Ir a  entrevistas.</p><br>
+		      </div>
+		    </div>
+		  </div>
+
+		 <div class="card">
+		    <div class="card-header" id="headingTwo">
+		      <h5 class="mb-0">
+		        <h4 class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          Administracion de recursos
+		        </h4>
+		      </h5>
+		    </div>
+		    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+		      <div class="card-body">
+		       		
+					<p align="left">	
+					<strong>Tiempo:</strong>Para ir a buscar trabajo,ir a las entrevistas y estudiar<br>
+					<strong>Dinero:</strong> para movilizarme , imprimir cv,etc<br> 
+					<strong>Esfuerzo y motivacion:
+					</strong>para estudiar,  ver empresas(estudiarlas) y tomar una buena decisision a la hora de elegir<br></p>
+		      </div>
+		    </div>
+		  </div>
 					
-					<div id="accordion">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h5 class="mb-0">
-        <h4 class="link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Plan de accion
-        </h4>
-      </h5>
-    </div>
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-      <div class="card-body">
-       	<p align="left">
-			<strong>paso 1:</strong>Buscar trabajo desde casa por la web , enviar mi cv a empresas del plan ceibal jovenes a programar y a portales de empleo.<br>
-			<strong>paso 2:</strong> en el tiempo libre que tengo (aprox 2 horas por dia) estudiar y seguir aprendiendo a programar.<br> 
-			<strong>paso 3:</strong> Estudiar los posibles llamados e ir lo mas preparado posible.<br>
-			<strong>paso 4:</strong> Ir a  entrevistas.</p><br>
-      </div>
-    </div>
-  </div>
-
- <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h5 class="mb-0">
-        <h4 class="collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Administracion de recursos
-        </h4>
-      </h5>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-      <div class="card-body">
-       <p>para lograr este objetivo voy a precisar de tiempo, esfuerzo, y motivacion para ir a las entrevistas , y para seguir estudiando de autoddidacta y poder estar mejor preparado para estas.</p>
-						<p align="left">	
-							<strong>Tiempo:</strong>Para ir a buscar trabajo,ir a las entrevistas y estudiar<br>
-			<strong>Dinero:</strong> para movilizarme , imprimir cv,etc<br> 
-			<strong>Esfuerzo y motivacion:</strong>para estudiar,  ver empresas( estudiarlas) y tomar una buena decisision a la hora de elegir<br></p>
-			
-
-      </div>
-    </div>
-  </div>
-	<div class="card">
-    <div class="card-header" id="headingThree">
-      <h5 class="mb-0">
-        <h4 class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          Analisis FODA
-        </h4>
-      </h5>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-      <div class="card-body">
-        <p>para lograr este objetivo voy a precisar de tiempo, esfuerzo, y motivacion para ir a las entrevistas , y para seguir estudiando de autoddidacta y poder estar mejor preparado para estas.</p>
-						<p align="left">	
-							<strong>Tiempo:</strong>Para ir a buscar trabajo,ir a las entrevistas y estudiar<br>
-			<strong>Dinero:</strong> para movilizarme , imprimir cv,etc<br> 
-			<strong>Esfuerzo y motivacion:</strong>para estudiar,  ver empresas( estudiarlas) y tomar una buena decisision a la hora de elegir<br></p>
-      </div>
-    </div>
-  </div>
-
-
+		 <div class="card">
+		    <div class="card-header" id="headingThree">
+		      <h5 class="mb-0">
+		        <h4 class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		          Analisis FODA
+		        </h4>
+		      </h5>
+		    </div>
+		    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+		      <div class="card-body">
+		        <p></p>
+								<p align="left">	
+					<strong>Fortalezas:</strong>Trabajar de lo que me gusta,participar de Jovenes a programar,experiencias en otros trabajos,buenas referencias.<br>
+					<strong>Oportunidades:</strong>Mercado de tecnologia en crecimiento,Estudiar de autodidacta,posibilidad de cursos gratuitos,posibilidad de crecimiento en el trabajo,aprender un oficio tecnico.<br> 
+					<strong>Debilidades:</strong>No tengo experiencia laboral en el rubro, mi edad (28 años) para junior<br> 
+					<strong>Amenazas:</strong>Mercado en constante cambio, personas capacitadas y con experiencia.<br></p>
+		      </div>
+		    </div>
+		  </div>
+	</div>
 </div>
+				<div class="col-md-6 col-lg-6 col-sm-12 programacionimg mx-auto d-block">	
+					<img src="img/programacion.jpg" width="550	px" class="img-thumbnail">
+				</div>
+			</div>
+</div>
+
+
+
 
 					
 					
@@ -196,96 +203,140 @@
 						
 						
 									
-				</div>
-				<div class="col-md-6 col-lg-6 col-sm-12 programacionimg mx-auto d-block">	
-					<img src="img/programacion.jpg" width="550	px" class="img-thumbnail">
-				</div>
-			</div>
-
-		</div>
 		
 	<!-- INGLES-->
-	<H2>ABOUT ME</H2>
-	
-	<div class="preguntas">
+	<div id="aboutMe"><H1 class="titulos" id=>ABOUT ME</H1>
+</div>
+		<div class="preguntas">
 		
-	<a href="#uno" data-toggle="collapse" class="questions" >What are your strenghts? <img src="img/flecha.png" width="16px"></a></span><br>
+	<a href="#uno" data-toggle="collapse" class="questions" >What are your strenghts? <img src="img/flecha.png" width="20px"></a></span><br>
 	<div id="uno" class="collapse answers">
-	Lorem ipsum dolor text....
+	My strengths are that I am a responsible, competent, proactive, good partner, I like programming, I have desire and motivation to learn more.
 	</div>
+	
 
-	<a href="#dos" data-toggle="collapse" class="questions">What are your weaknesses?  <img src="img/flecha.png" width="16px"></a></span><br>
+	<a href="#dos" data-toggle="collapse" class="questions">What are your weaknesses?  <img src="img/flecha.png" width="20px"></a></span><br>
 	<div id="dos" class="collapse answers">
-	Lorem ipsum dolor text....
+	I have no work experience as a developer, and I do not have all the technical knowledge.
 	</div>
+	
 
-	<a href="#tres" data-toggle="collapse" class="questions">What are your goals in this career?  <img src="img/flecha.png" width="16px"></a></span><br>
+	<a href="#tres" data-toggle="collapse" class="questions">What are your goals in this career?  <img src="img/flecha.png" width="20px"></a></span><br>
 	<div id="tres" class="collapse answers">
-	Lorem ipsum dolor text....
+	My goals are to have a stable job, to be an excellent developer and to have a company
+	
 	</div>
 
-	<a href="#cuatro" data-toggle="collapse" class="questions">Where do you see yourself in 5 years?  <img src="img/flecha.png" width="16px"></a></span><br>
+	<a href="#cuatro" data-toggle="collapse" class="questions">Where do you see yourself in 5 years?  <img src="img/flecha.png" width="20px"></a></span><br>
 	<div id="cuatro" class="collapse answers">
-	Lorem ipsum dolor text....
+	In five years I see myself working in a development company, starting a family and buying a house.
 	</div>
+	
 
-	<a href="#cinco" data-toggle="collapse" class="questions">What do you look for in a workplace? <img src="img/flecha.png" width="16px"></a></span><br>
+	<a href="#cinco" data-toggle="collapse" class="questions">What do you look for in a workplace? <img src="img/flecha.png" width="20px"></a></span><br>
 	<div id="cinco" class="collapse answers">
-	Lorem ipsum dolor text....
+	have a good work environment, with good companions
 	</div>
+	
+	
 
-		<a href="#seis" data-toggle="collapse" class="questions">Do you think you work well in a team? <img src="img/flecha.png" width="1px"></a></span><br>
+		<a href="#seis" data-toggle="collapse" class="questions">Do you think you work well in a team? <img src="img/flecha.png" width="20px"></a></span><br>
 	<div id="seis" class="collapse answers">
-	Lorem ipsum dolor text....
+	Yes, I would like to join a work team
 	</div>
 
-		<a href="#siete" data-toggle="collapse" class="questions">What role do you usually take on in a team? <img src="img/flecha.png" width="17px"></a></span><br>
+		<a href="#siete" data-toggle="collapse" class="questions">What role do you usually take on in a team? <img src="img/flecha.png" width="20px"></a></span><br>
 	<div id="siete" class="collapse answers">
-	Lorem ipsum dolor text....
+	I am a good partner that I am for what they need me, I can contribute good ideas and good disposition to work.
+	</div>
+	</div>
+	
+	<div class="row cyh">
+		
+		<div class="competencias col-md-6 col-sm-12  col-xs-12">
+			<h2>Competencias adquiridas</h2>
+			<p>COMUNICACION EFECTIVA <svg id="i-checkmark" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M2 20 L12 28 30 4" />
+</svg><BR>RELACIONES INTERPERSONALES <svg id="i-checkmark" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M2 20 L12 28 30 4" />
+</svg> <BR>RESPONSABILIDAD <svg id="i-checkmark" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M2 20 L12 28 30 4" />
+</svg>
+</svg> <BR>TRABAJO EN EQUIPO <svg id="i-checkmark" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M2 20 L12 28 30 4" />
+</svg>
+</p>
+		</div>
+		<div class="habilidades col-md-6 col-lg-6 col-sm-12 col-xs-12">
+			
+			<h2>Habilidades adquiridas</h2>
+			<p>HTML <svg id="i-checkmark" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M2 20 L12 28 30 4" />
+</svg><br>CSS<svg id="i-checkmark" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M2 20 L12 28 30 4" />
+</svg><BR>BOOTSTRAP <svg id="i-checkmark" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M2 20 L12 28 30 4" />
+</svg><BR>JAVA SCRIPT <svg id="i-checkmark" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+    <path d="M2 20 L12 28 30 4" />
+</svg></p>
+		</div>
 	</div>
 
+		<h1 style="color: #18bc9c; margin-top: 7%;">MUCHAS GRACIAS!!!</h1>
 
-	</div>
 
 	<!-- CONTACTO-->		   
 	
 	
 			
-		
-    <div class="formulario"  id="contacto">
-        <div class="col-md-12 mx-auto d-block">
+			
         
            
-                <form class="form-horizontal" action="https://formspree.io/andreschiarelli@gmail.com" method="POST">
+    <div class="formulario"  id="contacto">
+        <div class="col-md-12 mx-auto d-block">
+                <form class="form-horizontal" name="formulario" action="https://formspree.io/andreschiarelli@gmail.com" method="POST"   onsubmit="return comprobar()" id="formulario">
                     <fieldset>
-                        <legend class="text-center header ">CONTACTAME!</legend>
-
-                      
+                        <h1 class="text-center titulos">CONTACTAME!</h1>
                         <div class="form-group  ">
                             <div class="col-md-6 mx-auto d-block ">
-                                <input id="fname" name="name" type="text" placeholder="NOMBRE" class="form-control nombre">
+                                <input id="fname" name="name" type="text" placeholder="NOMBRE" class="form-control nombre" required >
                             </div>
                         </div>
                         <div class="form-group">
-                          	
                             <div class="col-md-6 mx-auto d-block ">
-                                <input id="email" name="_replyto" type="text" placeholder="EMAIL" class="form-control email">
+                                <input id="email" name="_replyto" type="text" placeholder="EMAIL" class="form-control email" required  >
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-md-6 mx-auto d-block">
-                                <textarea class="form-control mensaje" id="message" name="message" placeholder="ESCRIBA SU MENSAJE AQUI" rows="7"></textarea>
+                                <textarea class="form-control mensaje" id="message" name="message" placeholder="ESCRIBA SU MENSAJE AQUI" rows="7" required ></textarea>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="col-md-6 text-center mx-auto d-block">
-                                <button type="submit" class="btn btn-primary btn-lg enviar">ENVIAR</button>
+                                <button type="submit"  class="btn btn-primary btn-lg enviar">ENVIAR</button>
                             </div>
-                        <input type = "hidden" name = "_ next" value ="https://andreschiarelli.github.io/#contacto">
+                        <input type = "hidden" name = "_ next" value = "https://andreschiarelli.github.io/#contacto" />
 						<input type = "hidden" name = "_ subject" value = "Te han enviado un mensaje a tu pagina personal!" />	
-                        <input type="hidden" name="_language" value="es" />
+                       <input type="hidden" name="_language" value="es" />
+                      <p id="aviso"></p>
                         </div>
+                    </fieldset>
+                </form>
+        </div>
+    </div>
+	
 
+
+
+</body>
+</html>
+            
+
+
+
+                          	
+					
                           
 
 
@@ -293,79 +344,6 @@
                       
 
                             
-                    </fieldset>
-                </form>
-            
-        </div>
-    </div>
-
-
-   
-					
-				
-				
-
-			
-		
-			
-
-
-		
-		
-
-				
-		
-		
-	
-
-
-	
-			
-		
-					
-		
-
-
-	
-
-   
-
-			
-			
-
-		
-
-
-
-
-
-	
-
-
-
-			
-
-
-
-
-
-
-
-
-
-
-
-					  		 	
- <!--	poner una animacion en la parte de objetivos puede ser una flecha que se mueve o un tipo haciendo pesas </-->
- 
-
- <!--	poner un boton que traduzca la pagina a ingles.</-->
-  <!--	ver para agregar imagenes debajo de cada objetivo.</-->
-
-
-
-</body>
-</html>
 							
 					  		 		
 					  		 

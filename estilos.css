@@ -21,12 +21,15 @@ h6 {
 #principal,
 #trabajos,
 #acercaDeMi,
-#contacto{ padding-top: 100px; 
+#contacto,
+#aboutMe{ padding-top: 100px; 
 }
 .logo:visited{
 	color:white;
 }
-
+#texto1{
+		font-size: 25px;
+}
 	
 a:link{
 		text-decoration: none;
@@ -60,14 +63,14 @@ a:hover{
 			color: white;
 			float: right;
 			font-family:Lato;
-			font-size: 20px;
+			font-size: 17px;
 			font-weight: 700;
 }
 
 
 .logo{
 		color: white;
-		font-size: 25px;
+		font-size: 22px;
 		font-weight: 700;
 
 }
@@ -77,19 +80,28 @@ a:hover{
 			width: 60px;
 }
 .titulos{
-		padding-top:83px;
+		font-size: 30px;
+		text-align: center;
 }
 
 @media (max-width: 768px) 
-{ .botonera {color: black;font-weight: 700;background-color:#2c3e50;width: 40%;}
+{ .botonera {color: black;font-weight: 700;background-color:#2c3e50;width: 100%; text-align: justify;}
 a.botonera:hover{background-color: white;}
+.logo{display: none;}
+.navbar {height: 70px;padding: 0;}
+.preguntas{width:100%;}
+.navbar-toggler{ }
+
 }
 
 @media (max-width: 380px) 
 {.logo{display: none;}
 body{margin-right:  3%;margin-left: 3%;}
-.navbar-toggler{margin-left: 60%;}
+.preguntas{width: 100%;}
+.navbar {height: 70px;padding:0;}
+.navbar-toggler{;}
 }
+
 
 
 
@@ -122,12 +134,18 @@ body{margin-right:  3%;margin-left: 3%;}
 }
 /* SECCION 2 ACERCA DE MI*/
 .acercaDeMi{
-			text-align: center;
+			
 			width: 100%;
 			background-color: #6E6E6E;
 			color: white;
-			font-size: 25px;			
+			font-size: 20px;			
 }
+.bloque{
+		width: 70%;
+		text-align: justify;
+		margin: auto;
+}
+
 .jumbotron {
 	-moz-box-shadow: 0px 0px 0px 2px #ffffff;
 	-webkit-box-shadow: 0px 0px 0px 2px #ffffff;
@@ -138,6 +156,7 @@ body{margin-right:  3%;margin-left: 3%;}
 	border-radius:7px;
 	border:1px solid #ffffff;
 	display:inline-block;
+	float: center;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
@@ -145,6 +164,7 @@ body{margin-right:  3%;margin-left: 3%;}
 	font-weight:bold;
 	padding:18px 37px;
 	text-decoration:none;
+
 }
 .jumbotron:hover {
 	background-color:white;
@@ -175,32 +195,97 @@ body{margin-right:  3%;margin-left: 3%;}
 		border-width: 1px;
 		border-color: black;
 		padding: 3%;
+		background-color: #18bc9c;
 }
 .objetivos{
 		padding: 3%;
+
 }
 
 .programacionimg{
-				margin-top: 7%;
+				margin-top: 5%;
 }
 
 
 /*SECCION 5 INGLES*/
 .preguntas{
 			
-			background-color: skyblue;
-			
+			background-color:;
+			border: dashed; 
+			border-color: #18bc9c;
 			margin: auto;
-			
-
+			text-align: justify;
+			width: 70%;
+			padding: 1%;
 }
 .questions{
-			font-size: 30px;
+			font-size: 25px;
 			
 }
 .answers{
-		font-size: 17px;
+		font-size: 18px;
+
 }
+
+/*COMPETENCIAS Y HABILIDADES*/
+.cyh{
+		margin-top: 100px;
+		margin-left:  auto;
+		margin-right: auto;
+		width: 70%;
+		background: rgba(44,62,80,1);
+background: -moz-linear-gradient(left, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(44,62,80,1)), color-stop(100%, rgba(212,228,239,1)));
+background: -webkit-linear-gradient(left, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
+background: -o-linear-gradient(left, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
+background: -ms-linear-gradient(left, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
+background: linear-gradient(to right, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c3e50', endColorstr='#d4e4ef', GradientType=1 );
+
+}
+.competencias{
+			
+			border-style: solid;
+		border-right-style: none;
+		border-left-style: none;
+		border-width: 1px;
+		border-color: black;
+		padding-top:5%; 
+		padding-bottom:5%;
+		
+		
+
+			
+			
+			
+			
+
+			
+}	
+.habilidades{
+			
+			border-style: solid;
+		border-right-style: none;
+		border-left-style: none;
+		border-width: 1px;
+		border-color: black;
+		padding-top:5%; 
+		padding-bottom:5%;
+	
+		
+
+		
+			
+			
+
+			
+			
+
+
+}
+
+
+
 /*SECCION 6 CONTACTO*/
 		.formulario {
 			
@@ -250,6 +335,8 @@ body{margin-right:  3%;margin-left: 3%;}
 
 	
 	
+
+
 
 
 
