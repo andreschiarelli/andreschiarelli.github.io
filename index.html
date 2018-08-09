@@ -7,11 +7,14 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Footer-with-social-icons.css">
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ 
 <script src="proyecto.js"></script>
 
 	
@@ -23,11 +26,11 @@
 		<!--MENU-->
 		<nav class="navbar fixed-top navbar navbar-expand-md">
   <a class="navbar-brand logo" href="#">ANDRES CHIARELLI</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="">
     <img src="img/celular.png" class="imgCelular">
   </button>
 	
-  <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse  justify-content-end" id="navbarSupportedContent" >
     <ul class="navbar-nav ">
       
       <li class="nav-item">
@@ -55,7 +58,7 @@
 	    
   		<!--IMAGEN DE PERFIL-->
 	<div class="principal" id="principal">
-		<img src="img\fotoPerfil.jpg"  class="rounded-circle fotoPerfil "  width="200px">
+		<img src="img\fotoandres.jpg"  class="rounded-circle fotoPerfil "  width="200px">
 			<h1 class="titulos">ANDRES CHIARELLI</h1>
 			<H3 id="texto1">Estudiante - Desarrollo web - Jovenes a programar
 	</div>
@@ -71,7 +74,7 @@
 		</div>	
 		
 			
-		<a href="#" class="jumbotron">Ver mi Curriculum!</a>
+		<a href="cv.pdf" class="jumbotron" target="_blank">Ver mi Curriculum!</a>
 	
 	</div>
 		
@@ -89,7 +92,7 @@
    <div class="row">
    	<div class="col-sm-6" style="">
       <h6>INSTITUTO DE INGLES</h6>
-      <img src="img/instituto.png" class="mx-auto d-block rounded" style="width:70%" alt="Image">
+      <img src="img/instituto.png" class="mx-auto d-block rounded view-fifth" style="width:70%" alt="Image">
     </div>
     <div class="col-sm-6"> 
       <p>Tradeinvet</p>
@@ -209,13 +212,13 @@
 </div>
 		<div class="preguntas">
 		
-	<a href="#uno" data-toggle="collapse" class="questions" >What are your strenghts? <img src="img/flecha.png" width="20px"></a></span><br>
+	<a href="#uno" data-toggle="collapse" class="questions" >What are your<span class="break"></span> strenghts? <img src="img/flecha.png" width="20px"></a></span><br>
 	<div id="uno" class="collapse answers">
 	My strengths are that I am a responsible, competent, proactive, good partner, I like programming, I have desire and motivation to learn more.
 	</div>
 	
 
-	<a href="#dos" data-toggle="collapse" class="questions">What are your weaknesses?  <img src="img/flecha.png" width="20px"></a></span><br>
+	<a href="#dos" data-toggle="collapse" class="questions">What are your<span class="break"></span> weaknesses? <img src="img/flecha.png" width="20px"></a></span><br>
 	<div id="dos" class="collapse answers">
 	I have no work experience as a developer, and I do not have all the technical knowledge.
 	</div>
@@ -254,7 +257,7 @@
 	<div class="row cyh">
 		
 		<div class="competencias col-md-6 col-sm-12  col-xs-12">
-			<h2>Competencias adquiridas</h2>
+			<h2 class="titulos">Competencias adquiridas</h2>
 			<p>COMUNICACION EFECTIVA <svg id="i-checkmark" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
     <path d="M2 20 L12 28 30 4" />
 </svg><BR>RELACIONES INTERPERSONALES <svg id="i-checkmark" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -269,7 +272,7 @@
 		</div>
 		<div class="habilidades col-md-6 col-lg-6 col-sm-12 col-xs-12">
 			
-			<h2>Habilidades adquiridas</h2>
+			<h2 class="titulos">Habilidades adquiridas</h2>
 			<p>HTML <svg id="i-checkmark" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
     <path d="M2 20 L12 28 30 4" />
 </svg><br>CSS<svg id="i-checkmark" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
@@ -327,6 +330,25 @@
     </div>
 	
 
+<div class="content">
+</div>
+    <footer id="myFooter">
+        <div class="container">
+           
+                      
+                   
+         
+       
+        </div>
+        <div class="social-networks">
+            <a href="https://twitter.com/andr_313" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/andres.chiarelli?ref=bookmarks" target="_blank" class="facebook"><i class="fa fa-facebook-official"></i></a>
+            <a href="https://plus.google.com/u/0/115030179401931933314" class="google" target="_blank"><i class="fa fa-google-plus"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p>https://andreschiarelli.github.io </p>
+        </div>
+    </footer>
 
 
 </body>

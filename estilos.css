@@ -55,7 +55,7 @@ a:hover{
 
 
 .navbar{
-		 height: 100px;
+		 height: 85px;
 		 background-color: #2c3e50;
 }
 
@@ -84,47 +84,14 @@ a:hover{
 		text-align: center;
 }
 
-@media (max-width: 768px) 
-{ .botonera {color: black;font-weight: 700;background-color:#2c3e50;width: 100%; text-align: justify;}
-a.botonera:hover{background-color: white;}
-.logo{display: none;}
-.navbar {height: 70px;padding: 0;}
-.preguntas{width:100%;}
-.navbar-toggler{ }
 
-}
-
-@media (max-width: 380px) 
-{.logo{display: none;}
-body{margin-right:  3%;margin-left: 3%;}
-.preguntas{width: 100%;}
-.navbar {height: 70px;padding:0;}
-.navbar-toggler{;}
-}
-
-
-
-
-
-
-
-
-
-			 
-			 
-
-			
-
-
-		
-		
 /*SECCION 1- FOTO DE PERFL*/
 .principal{
 			
 			text-align: center;
 			width: 100%;
 			background-color:#18bc9c;
-			margin-bottom: -10px;
+			
 			padding-bottom: 50px;
 			color: white;
 }
@@ -211,7 +178,9 @@ body{margin-right:  3%;margin-left: 3%;}
 .preguntas{
 			
 			background-color:;
-			border: dashed; 
+			border-style: solid;
+			border-right-style: none;
+			border-left-style: none; 
 			border-color: #18bc9c;
 			margin: auto;
 			text-align: justify;
@@ -234,33 +203,25 @@ body{margin-right:  3%;margin-left: 3%;}
 		margin-right: auto;
 		width: 70%;
 		background: rgba(44,62,80,1);
-background: -moz-linear-gradient(left, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(44,62,80,1)), color-stop(100%, rgba(212,228,239,1)));
-background: -webkit-linear-gradient(left, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
-background: -o-linear-gradient(left, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
-background: -ms-linear-gradient(left, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
-background: linear-gradient(to right, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c3e50', endColorstr='#d4e4ef', GradientType=1 );
+		background: -moz-linear-gradient(left, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(44,62,80,1)), color-stop(100%, rgba(212,228,239,1)));
+		background: -webkit-linear-gradient(left, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
+		background: -o-linear-gradient(left, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
+		background: -ms-linear-gradient(left, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
+		background: linear-gradient(to right, rgba(44,62,80,1) 0%, rgba(212,228,239,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c3e50', endColorstr='#d4e4ef', GradientType=1 );
 
 }
 .competencias{
 			
-			border-style: solid;
+			
+		border-style: solid;
 		border-right-style: none;
 		border-left-style: none;
 		border-width: 1px;
-		border-color: black;
+		border-color:#2c3e50 ;
 		padding-top:5%; 
 		padding-bottom:5%;
-		
-		
-
-			
-			
-			
-			
-
-			
 }	
 .habilidades{
 			
@@ -268,24 +229,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c3e50', end
 		border-right-style: none;
 		border-left-style: none;
 		border-width: 1px;
-		border-color: black;
+		border-color: #2c3e50;
 		padding-top:5%; 
 		padding-bottom:5%;
-	
-		
-
-		
-			
-			
-
-			
-			
-
-
 }
-
-
-
+		
 /*SECCION 6 CONTACTO*/
 		.formulario {
 			
@@ -333,7 +281,84 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2c3e50', end
 	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 	}
 
+/*footer*/
+.footer{
+		width: 100px;
+		
+		background-color:#2c3e50;
+}			 
+
+		
+@media (max-width: 768px) 
+{ .botonera {color: black;font-weight: 700;background-color:#2c3e50;width: 100%; text-align: justify;}
+a.botonera:hover{background-color: white;}
+.logo{display: none;}
+.navbar {height: 50px;padding: 0;}
+.preguntas{width:100%;}
+.answers{font-size:15px; }
+.navbar-toggler{ }
+.questions{font-size: 18px;}
+.imgCelular{width: 40px;}
+.titulos{font-size: 25px;}
+.acercaDeMi{font-size: 17px; white-space: normal}
+.fotoPerfil{width: 150px; margin-top: -30px;};
+.botonera{font-size: 15px;}
+.jumbotron{font-size:17px;font-weight:bold;padding:16px 27px;}
+#texto1{font-size: 20px;}
+.break:{display: block;content: " ";}
+
+@media (max-width: 380px) 
+{.logo{display: none;}
+body{margin-right:  3%;margin-left: 3%;}
+.preguntas{width: 100%;}
+.navbar {height: 50px;padding:0;}
+.navbar-toggler{;}
+.questions{font-size: 18px;}
+.answers{font-size:15px; }
+.imgCelular{width: 40px;}
+.titulos{font-size: 25px;}
+.fotoPerfil{width: 150px; margin-top: -30px;};
+.acercaDeMi{font-size: 16px; text-align: center;}
+.botonera{font-size: 15px;}
+.jumbotron{font-size:16px;
+	font-weight:bold;
+	padding:16px 27px;}
+
+
+
+
+			 
+
+
+			
+
+
+		
+		
+
+			
+			
+			
+			
+
+			
 	
+		
+
+		
+			
+			
+
+			
+			
+
+
+
+
+
+
+	
+
 	
 
 

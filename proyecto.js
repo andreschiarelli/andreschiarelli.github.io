@@ -29,6 +29,16 @@ function comprobar(){
 }
 
 
+$(function(){
+     $('body').click(function() {
+         alert('click fuera');
+     });
+ 
+     $('#dropList').click(function(event){
+         event.stopPropagation();
+     });
+});
+
 
 
   /* <p id="aviso"></p>*/
